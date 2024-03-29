@@ -31,6 +31,7 @@ header li a{
 .container {
     width: 1366px;
     margin: 0 auto;
+    padding: 8px;
 }
 
 .articles{
@@ -39,7 +40,9 @@ header li a{
     justify-content: space-between;
 }
 .articles article img{
-    width: 100%;
+    width: 110%;
+    height: 50%;
+    object-fit:cover;
 }
 .articles article{
     width: 26%;
@@ -91,10 +94,26 @@ section h2{
     background-color: rgb(247, 247, 173);
 }
 
+#Tecnology{
+    background-color: rgb(211, 235, 255);
+}
+
+#Cinema{
+    background-color: rgb(255, 177, 177);
+}
+
 #sports article a{
     background-color: rgb(26, 162, 26);
 }
 
 #economy article a{
     background-color:rgb(209, 121, 27)
+}
+
+#Tecnology article a{
+    background-color: rgb(40, 125, 199);
+}
+
+#Cinema article a{
+    background-color: rgb(249, 52, 52);
 }
